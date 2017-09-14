@@ -1,0 +1,30 @@
+{
+  "name": "meanauthapp",
+  "version": "1.0.0",
+  "privete": true,
+  "description": "MEAN stack authentication app",
+  "main": "app.js",
+  "dependencies": {
+    "@angular/compiler": "*",
+    "@angular/core": "*",
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "jwt-simple": "*",
+    "mongoose": "*",
+    "nodemon": "^1.11.0",
+    "passport": "^0.4.0",
+    "passport-jwt": "*"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "author": "Andrew Steele",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "*"
+  }
+}
